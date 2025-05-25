@@ -1,69 +1,118 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            document
-        </title>
-        <style>
-            body{
-                background-color: rgb(147, 147, 211);
-            }
-        </style>
-    </head>
-    <body>
-<p>hello world</p>
-<hr>
-<h1>heading 1</h1>
-<h2>heading 2</h2>
-<h3>heading 3</h3>
-<p>Lorem ipsum dolor sit, <b>amet</b> consectetur<i>adipisicing</i>  elit. <sub>Maiores</sub> porro <em>voluptatibus</em> similique sunt animi consectetur laboriosam aperiam? Quis tenetur numquam, animi rem labore minima officiis veritatis perferendis recusandae voluptatum possimus?</p>
-<p><b>orderd list</b>the list is:</p>
-<ol>
-    <li>list 1</li><ul>
-        <li>then</li>
-    </ul>
-    <li>list 2</li>
-    <li>list 3</li>
-</ol>
+<html lang="en">
 
-<ul> 
-    <li> list</li>
-    <li>into</li>
-</ul>
-<hr>
-<h1>orderd- and- unorderd list</h1>
-<hr>
-<h2>orderd list</h2>
-<ol>
-    <li>things to do when i get up</li><ol>
-        <li>put the kettle on</li>
-        <li>put the tea bag in tha cup</li>
-        <li>wait for kettle to boil</li>
-        <li>pour boiling water in the cup</li>
-    </ol>
-    <li>things to do when i go to bed</li><ol>
-        <li>turn stuff off</li>
-        <li>put the cat out</li>
-        <li>lock the doors</li>
-        <li>brush my teeth</li>
-    </ol>
-</ol>
-<h2>unorderd list   </h2>
-<ul>
-    <li>shopping ist</li><ul>
-        <li>tin of tomatos</li>
-        <li>bacon</li>
-        <li>loaf of bread</li>
-        <li>mushrooms</li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-    </ul>
-    <li>party guest list</li><ul>
-        <li>bruce wayn</li>
-        <li>jung haein</li>
-        <li>woo do hwan</li>
-        <li>elma walcott</li>
-    </ul>
-</ul>
+    <style>
+        .colour {
+            background-color: black;
 
-    </body>
+        }
+
+        .section {
+            display: flex;
+            gap: 40px;
+        }
+
+        .line-1 {
+            color: white;
+            list-style: none;
+        }
+
+        .reg {
+            color: white;
+            margin-left: 3%;
+            margin-top: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <footer class="colour">
+        <div class="section">
+            <div class="one">
+                <ul class="line-1">
+                    <li>
+                        <h2>info</h2>
+                    </li>
+                    <li>format</li>
+                    <li>compassion</li>
+                    <li>pricing</li>
+                    <li>FAQ</li>
+                    <li>status</li>
+                    <li>policy</li>
+                </ul>
+            </div>
+            <div class="two">
+                <ul class="line-1">
+                    <li>
+                        <h2>getting started</h2>
+                    </li>
+                    <li>format</li>
+                    <li>compassion</li>
+                    <li>pricing</li>
+                    <li>FAQ</li>
+                    <li>status</li>
+                    <li>policy</li>
+                </ul>
+            </div>
+            <div class="three">
+                <ul class="line-1">
+                    <li>
+                        <h2>resources</h2>
+                    </li>
+                    <li>format</li>
+                    <li>compassion</li>
+                    <li>pricing</li>
+                    <li>FAQ</li>
+                    <li>status</li>
+                    <li>policy</li>
+                </ul>
+            </div>
+            <div class="four">
+                <ul class="line-1">
+                    <li>
+                        <h2>status</h2>
+                    </li>
+                    <li>format</li>
+                    <li>compassion</li>
+                    <li>pricing</li>
+                    <li>FAQ</li>
+                    <li>status</li>
+                    <li>policy</li>
+                </ul>
+            </div>
+
+        </div>
+        <div>
+            <div class="reg">
+                <table>
+                    <tr>
+                        <td>name</td>
+                        <td><input type="text" placeholder="name"></td>
+                    </tr>
+                    <tr>
+                        <td>password</td>
+                        <td><input type="text" placeholder="password"></td>
+                    </tr>
+                    <tr>
+                        <td>class</td>
+                        <td><input type="text" placeholder="class"></td>
+                    </tr>
+                    <tr>
+                        <td>department</td>
+                        <td><input type="text" placeholder="department"></td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
 </html>
